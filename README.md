@@ -152,4 +152,11 @@ span {
 
 ### `position: fixed` : `absolute` 상태와 위치 지정 방법은 비슷(static 아닌 상위 블록 요소를 찾음)하지만 스크롤 시 위치가 변하지 않고 고정된다.
 
-**TIP : `top`, `right`, `bottom`, `left`를 지정하지 않으면 아무 일도 일어나지 않기 때문에 기준이 될 상위 블록 요소에 `position: relative`를 지정할 수 있다.**
+**TIP : `top`, `right`, `bottom`, `left`를 지정하지 않으면 아무 일도 일어나지 않기 때문에 기준이 될 상위 블록 요소에 `position: relative`를 지정하고 `position: relative`를 지정한 태그의 위치를 제어할 수 있다.**
+
+## #4.2 float 속성
+
+### float 속성을 갖는 요소는 공간은 차지하되 다른 요소의 배치에 영향을 주지 않는 요소가 된다.
+- 하위 내용(content) 만큼의 크기만 차지하고 상위 블록 요소 안에서 주위의 다른 요소(위, 아래, 오른쪽, 왼쪽)에 관계 없이 left 또는 right에 붙고 다른 요소를 방해하지 않게 된다.
+
+### `left`, `right`, `none`의 속성값이 있다.
